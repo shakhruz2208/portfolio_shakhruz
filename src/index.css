@@ -1,0 +1,54 @@
+@import 'tailwindcss';
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+};
+
+html, body{
+  cursor: none;
+ };
+
+ .my-custom-cursor {
+  width: 10px;
+  height: 10px;
+  background-color: gray; 
+  border-radius: 50%;
+  position: fixed;
+  pointer-events: none;
+  z-index: 10000;
+  transition: transform 0.1s ease-out;
+}
+
+
+
+.my-custom-cursor::after {
+  content: '';
+  width: 35px;
+  height: 35px;
+  border: 1px solid gray; 
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@keyframes slideReveal {
+  from {
+    clip-path: inset( 0 0 100% 0); 
+  }
+  to {
+    clip-path: inset(0 0 0 0); 
+  }
+}
+
+.all {
+  animation: slideReveal 1.5s cubic-bezier(0.77, 0, 0.175, 1) forwards;
+}
+
+
+
+
+
