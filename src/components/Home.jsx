@@ -40,7 +40,7 @@ const el = useRef(null)
     </div>
              <div className='flex gap-5'>
                <div className='pt-5'>
-                  <a href="" download='https://docs.google.com/document/d/1_cYTqd7li3EEmKEVLKife1wnEIjIcKYxKTSuFdDOlHs/edit?tab=t.0' className=' px-6  shadow-lg  transition-all duration-500  active:translate-y-2 text-xl mt-10 active:shadow-none  hover:bg-black hover:text-white py-3 rounded-4xl bg-white text-black cursor-none font-bold'>Download Resume</a>
+                  <a href="" download='file:///C:/Users/shaxr/Downloads/Resume.pdf' className=' px-6  shadow-lg  transition-all duration-500  active:translate-y-2 text-xl mt-10 active:shadow-none  hover:bg-black hover:text-white py-3 rounded-4xl bg-white text-black cursor-none font-bold'>Download Resume</a>
               </div>
               <div className='pt-5'>
                   <a href="#4"  className=' px-6  shadow-lg  transition-all  duration-500   text-xl mt-10 active:shadow-none  hover:bg-black hover:text-white py-3 rounded-4xl bg-white text-black cursor-none font-bold'>Projects</a>

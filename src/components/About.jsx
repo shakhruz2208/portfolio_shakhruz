@@ -3,7 +3,7 @@ import line from '../images/separatorBlack 1.png'
 const About = () => {
   return (
     <div id='2' className='about h-screen w-full bg-gray-300 font-mono '>
-      <button className='animate-bounce cursor-none ml-150 mt-25 py-5 px-15 border-4 text-xl font-bold font-serif'>About Me</button>
+      <button className='animate-bounce cursor-none ml-150 mt-25 py-5 px-15 border-4 text-xl font-bold font-serif'>ABOUT ME</button>
       <div>
         <h1 className='text-center text-gray-600 pt-12'>I am a passionate Frontend Developer who enjoys creating modern, responsive, and user-friendly websites. <br /> I focus on writing clean code and building beautiful interfaces using modern web technologies.</h1>
       </div>

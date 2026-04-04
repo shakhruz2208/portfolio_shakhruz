@@ -14,7 +14,7 @@ import { TiCss3, TiHtml5 } from 'react-icons/ti'
 const Skills = () => {
   return (
     <div id='3' className='skill w-full h-auto py-2 pb-5 bg-gray-300 font-mono'>
-      <button className='animate-bounce cursor-none ml-150 mt-25 py-5 px-15 border-4 text-xl font-bold font-serif'>Skills</button>
+      <button className='animate-bounce cursor-none ml-150 mt-25 py-5 px-15 border-4 text-xl font-bold font-serif'>SKILLS</button>
       <h1 className='font-bold text-3xl pl-50 pt-10'>Using know:</h1>
       <div className='grid grid-cols-4 pl-45 pt-10 gap-10 '>
         <div className=''>
