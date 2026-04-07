@@ -22,8 +22,8 @@ const Home = () => {
     <div id='1' className="relative w-full min-h-screen bg-[#e0e0e0] flex flex-col md:flex-row items-center overflow-hidden">
       
       
-      <div className="z-20 w-full md:w-1/2 flex flex-col gap-5 px-6 md:pl-[10%] py-10 md:py-0 ">
-        <div className='flex flex-col gap-2 pt-10'>
+      <div className="z-20 w-full md:w-1/2 flex flex-col gap-5 px-6 pl-12 md:pl-[8%] py-10 md:py-0 ">
+        <div className='flex flex-col gap-2 pt-15'>
           <span className="text-2xl md:text-3xl font-medium">Hi, I am</span>
           <h1 className="text-5xl md:text-7xl font-bold mt-2 text-black">S.Shakhruz</h1>
           <div className="text-gray-600 mt-2 text-2xl md:text-3xl h-10">
