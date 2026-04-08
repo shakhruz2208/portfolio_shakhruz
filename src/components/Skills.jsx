@@ -24,7 +24,7 @@ const Skills = () => {
   ];
 
   return (
-    <div id='3' className='skill w-full h-auto py-16 bg-gray-300 font-mono px-6 flex flex-col items-center'>
+    <div id='3' className='skill w-full h-auto py-16 bg-gradient-to-br from-slate-900 to-slate-800 text-indigo-400 font-mono px-6 flex flex-col items-center'>
       <div className='w-full max-w-5xl flex justify-center mb-12'>
   <button className='animate-bounce cursor-none py-5 px-15 border-4 text-xl font-bold font-serif'>
     SKILLS
@@ -36,8 +36,8 @@ const Skills = () => {
         
         <div className='grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-10 justify-items-center md:justify-items-start mb-20'>
           {knownSkills.map((skill, index) => (
-            <div key={index} className='flex flex-col items-center md:items-start group'>
-              <div className='text-7xl md:text-8xl transition-all duration-300 p-2 rounded-2xl group-hover:shadow-xl group-hover:shadow-gray-500 bg-gray-300'>
+            <div key={index} className='flex flex-col items-center md:items-start group text-indigo-900'>
+              <div className='text-7xl md:text-8xl transition-all duration-300 p-2 rounded-2xl group-hover:shadow-xl group-hover:shadow-indigo-500 bg-gray-300'>
                 {skill.icon}
               </div>
               <h1 className='mt-3 text-lg md:text-xl font-semibold uppercase'>{skill.name}</h1>

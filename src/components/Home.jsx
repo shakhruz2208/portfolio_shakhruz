@@ -19,36 +19,39 @@ const Home = () => {
   }, [])
 
   return (
-    <div id='1' className="relative w-full min-h-screen bg-[#e0e0e0] flex flex-col md:flex-row items-center overflow-hidden">
+    <div id='1' className=" w-full min-h-screen  bg-gradient-to-r from-indigo-900 via-slate-800 to-slate-900
+        bg-[length:200%_200%]
+        animate-[gradientMove_10s_ease_infinite]
+        text-[#e2e8f0] flex flex-col md:flex-row items-center overflow-hidden">
       
       
-      <div className="z-20 w-full md:w-1/2 flex flex-col gap-5 px-6 pl-12 md:pl-[8%] py-10 md:py-0 ">
-        <div className='flex flex-col gap-2 pt-15'>
-          <span className="text-2xl md:text-3xl font-medium">Hi, I am</span>
-          <h1 className="text-5xl md:text-7xl font-bold mt-2 text-black">S.Shakhruz</h1>
-          <div className="text-gray-600 mt-2 text-2xl md:text-3xl h-10">
+      <div className=" w-full md:w-1/2 flex flex-col gap-5 px-6 pl-12 md:pl-[8%] py-10 md:py-0 ">
+        <div className='flex flex-col gap-2 pt-15 md:pt-5 text-[#e2e8f0]'>
+          <span className="text-3xl md:text-4xl font-medium">Hi, I am</span>
+          <h1 className="text-5xl md:text-7xl font-bold mt-2">S.Shakhruz</h1>
+          <div className=" mt-2 text-2xl md:text-3xl h-10">
             <span ref={el}></span>
           </div>
         </div>
 
         <div className='flex flex-wrap gap-4 mt-4'>
-          <a href="#" className='px-6 py-3 shadow-md hover:shadow-xl transition-all duration-300 text-lg rounded-full bg-white text-black font-bold hover:bg-black hover:text-white'>
+          <a href="#" className='bg-indigo-500 hover:bg-indigo-600 text-white px-6 py-3 rounded-xl transition shadow-lg shadow-indigo-500/30 cursor-none'>
             Download Resume
           </a>
-          <a href="#4" className='px-6 py-3 shadow-md hover:shadow-xl transition-all duration-300 text-lg rounded-full bg-white text-black font-bold hover:bg-black hover:text-white'>
+          <a href="#4" className='bg-indigo-500 hover:bg-indigo-600 text-white px-6 py-3 rounded-xl transition shadow-lg shadow-indigo-500/30 cursor-none'>
             Projects
           </a>
         </div>
 
-        <div className="flex gap-6 mt-6">
-          <a href='#' className='text-3xl hover:scale-125 transition-transform duration-300'><BsTelegram/></a>
-          <a href='#' className='text-3xl hover:scale-125 transition-transform duration-300'><BsInstagram/></a>
-          <a href='#' className='text-3xl hover:scale-125 transition-transform duration-300'><GrGithub/></a>
+        <div className="flex gap-6 mt-6 ">
+          <a href='https://t.me/shakhruz022' className='text-3xl hover:scale-125 transition-transform duration-300 cursor-none'><BsTelegram/></a>
+          <a href='https://www.instagram.com/shakhruz22.08/' className='text-3xl hover:scale-125 transition-transform duration-300 cursor-none'><BsInstagram/></a>
+          <a href='https://github.com/shakhruz2208' className='text-3xl hover:scale-125 transition-transform duration-300 cursor-none'><GrGithub/></a>
         </div>
       </div>
 
       
-      <div className="relative w-full md:w-2/1 h-[450px] md:h-screen bg-black flex  items-center justify-center
+      <div className=" w-full md:w-2/1 h-[450px] md:h-screen  flex  items-center justify-center
                       [clip-path:polygon(0%_15%,100%_0%,100%_100%,0%_100%)] 
                       md:[clip-path:polygon(20%_0%,100%_0%,100%_100%,0%_100%)]">
         
