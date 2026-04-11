@@ -25,7 +25,7 @@ const Home = () => {
         text-[#e2e8f0] flex flex-col md:flex-row items-center overflow-hidden">
       
       
-      <div className=" w-full md:w-1/2 flex flex-col gap-5 px-6 pl-12 md:pl-[8%] py-10 md:py-0 ">
+      <div className=" w-full md:w-1/2 flex flex-col gap-5 pl-10 pl-8 md:pl-[8%] py-10 md:py-0 ">
         <div className='flex flex-col gap-2 pt-15 md:pt-5 text-[#e2e8f0]'>
           <span className="text-3xl md:text-4xl font-medium">Hi, I am</span>
           <h1 className="text-5xl md:text-7xl font-bold mt-2">S.Shakhruz</h1>

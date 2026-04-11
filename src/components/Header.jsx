@@ -19,7 +19,7 @@ const Header = () => {
         <div className={`fixed z-50 w-full transition-all duration-500 ease-in-out font-bold
             ${scrolled ? 'h-20 backdrop-blur-md shadow-xl' : 'h-20 bg-transparent'}`}>
             
-            <div className='max-w-[1440px] mx-auto h-full px-1 lg:pl-14 flex items-center justify-between lg:gap-[520px] lg:justify-start'>
+            <div className='max-w-[1440px]  mx-auto h-full lg:pl-14 flex items-center gap-22 lg:gap-[520px] lg:justify-start'>
                 
                 
                 <div className='flex-shrink-0'>
