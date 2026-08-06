@@ -19,7 +19,7 @@ const Home = () => {
   }, [])
 
   return (
-    <div id='1' className=" w-full min-h-screen  bg-gradient-to-r from-indigo-900 via-slate-800 to-slate-900
+    <div id='1' className=" w-full min-h-screen  bg-gradient-to-r from-indigo-950 via-slate-800 to-slate-900
         bg-[length:200%_200%]
         animate-[gradientMove_10s_ease_infinite]
         text-[#e2e8f0] flex flex-col md:flex-row items-center overflow-hidden">
@@ -35,9 +35,13 @@ const Home = () => {
         </div>
 
         <div className='flex flex-wrap gap-4 mt-4'>
-          <a href="#" className='bg-indigo-500 hover:bg-indigo-600 text-white px-6 py-3 rounded-xl transition shadow-lg shadow-indigo-500/30 cursor-none'>
-            Download Resume
-          </a>
+         <a 
+  href="/Resume.pdf" 
+  download="Resume.pdf" 
+  className="bg-indigo-500 hover:bg-indigo-600 text-white px-6 py-3 rounded-xl transition shadow-lg shadow-indigo-500/30 cursor-none"
+> 
+  Download Resume 
+</a>
           <a href="#4" className='bg-indigo-500 hover:bg-indigo-600 text-white px-6 py-3 rounded-xl transition shadow-lg shadow-indigo-500/30 cursor-none'>
             Projects
           </a>
